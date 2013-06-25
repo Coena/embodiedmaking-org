@@ -1,0 +1,42 @@
+@(sections: List[MethodSection], section: MethodSection, slides: List[MethodSlide])
+
+@import tags._
+
+@main(section.title) {
+
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>Method</h1>
+            <p class="lead">@section.title</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="span9">
+                <div class="page-header">
+                    <h3>@section.title</h3>
+                    <p>@section.summary</p>
+                </div>
+
+                @for(slide <- slides) {
+                    <div class="row">
+                        <div class="span6">
+                            <p>@Html(slide.description)</p>
+                            <span class="pagination-centered">
+                                <img src='@routes.Assets.at("images/method/" + slide.id + ".jpg")' alt="@slide.id">
+                            </span>
+                        </div>
+                        <div class="span3">@slide.note</div>
+                    </div>
+
+                    <hr/>
+                }
+
+                @navigation("method", sections, section)
+            </div>
+        </div>
+    </div>
+
+}

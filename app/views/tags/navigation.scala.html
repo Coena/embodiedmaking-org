@@ -1,0 +1,17 @@
+@(section: String, navs: List[Navigable], current: Navigable)
+
+@navigationLink(navs: List[Navigable], current: Navigable, offset: Int) = @{
+    val idx = navs.indexOf(current) + offset
+    if (idx >= 0 && idx < navs.length) Some(navs(idx)) else None
+}
+
+<ul class="pager">
+    <li class="previous">@Html(navigationLink(navs, current, -1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>&larr; " + (nav.title) + "</a>").getOrElse(""))</li>
+    <li class="next">@Html(navigationLink(navs, current, +1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>" + (nav.title) + " &rarr;</a>").getOrElse(""))</li>
+</ul>
+
+<ul class="pager">
+    <li class="previous"><a href="/" class="pull-right">Overview</a></li>
+    <li class="next"><a href="#" class="pull-right">Back to top</a></li>
+</ul>
+
