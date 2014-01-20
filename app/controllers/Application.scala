@@ -11,8 +11,8 @@ object Application extends Controller {
     Ok(views.html.index(MethodSection.all()))
   }
   
-  def methodSection(id: String) = Action { 
-    Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id)))
+  def methodSection(methodId: String) = Action { 
+    Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(methodId), MethodSlide.all(methodId)))
   }
   
 }
