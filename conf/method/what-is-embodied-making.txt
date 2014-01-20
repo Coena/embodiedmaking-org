@@ -1,20 +1,23 @@
 what-is-embodied-making-1
 
-Perhaps humanity’s defining trait is our ability to craft elegant solutions in face of adversity, complexity, and scarcity.Starting from our early ancestors who fashioned their tools using little more than wood, stone, and sinew to the more recent inventions of steam and electric engines, our history is testament to transformations in our societies on the strengths of our solutions. Some transformations are an intended consequence of the invention, such as the use of steam engines to make faster travel possible. Other consequences are unintended, such as the excessive pollution created as a consequence of our industrialized societies.
+Perhaps humanity's defining trait is our ability to craft elegant solutions in face of adversity, complexity, and scarcity.Starting from our early ancestors who fashioned their tools using little more than wood, stone, and sinew to the more recent inventions of steam and electric engines, our history is testament to transformations in our societies on the strengths of our solutions. Some transformations are an intended consequence of the invention, such as the use of steam engines to make faster travel possible. Other consequences are unintended, such as the excessive pollution created as a consequence of our industrialized societies.
 
-Humans possess an extraordinary ability to craft the environment around them into all sorts of useful objects, ranging from cups, bicycles, paper to door handles. Even more extraordinary is our ability to learn about these objects, and with a little practice, use them seemingly little thought. 
+Humans possess an extraordinary ability to craft the environment around them into all sorts of useful objects, ranging from cups, bicycles, paper to door handles. Even more extraordinary is our ability to learn about these objects, and with a little practice, use them seemingly little thought. When we drink a hot beverage from a familiar cup, we expend little thought into
+that first careful sip to gauge temperature, the measured sips as the beverage cools, and the carefree swigs after the beverage has cooled.
 
 what-is-embodied-making-2
 
 How do we ensure our solutions bring about positive changes in our societies and avoid creating unintended consequences such as waste or pollution? Embodied making is a method for realizing solutions for complex environments with a high scale of interwoven problems. Solutions are realised together with the people who live and work in those environments every day by first understanding and recording their experiences in the form of stories. Stories provide insight about the forces that shape an environment, such as a story about the lack of inter-departmenal cooperation in a company can reveal several forces, one of which can be departmental goals taking precedence over organisational goals. Through deep contemplation about the body of forces revealed through several stories, solutions can be discovered that solve the these forces in the most elegant manner.
 
-When we drink a hot beverage from a familiar cup, we expend little thought into topple over easily, and tall enough to quench our thirst. The shape of cups and glasses have held a stable form as the manner in which we drink from them has not changed since their inception. 
+If we want to drink a hot beverage over a good conversation with a friend, we may use a large cup, so that it can contain enough coffee or tea to last the whole conversation, thick enough not to scald our fingers, yet thin enough to warm or hands on a cold winter evening, and with large handles to afford nestling
+several fingers to lift its heavy contents and body.
 
 what-is-embodied-making-3
 
 Making elegant solutions becomes harder as our societies grow more complex. A solution with a physical form, such as a household appliance, must provide utility, possess ergonomic qualities, utilize materials that do no harm its users, and withstand a variety of situations both intended and accidental. A solution that consists of several interrelated solutions, such as an office building with specialised rooms, must be able to balance individual and collective needs. An intangible solution, such as a business practice or procedure, must be learnable and teachable, be adaptive to varying situations, and be capable of refinement with usage.
 
-Adaptation, if at all, has occurred with the emergence of new materials and methods of ornamentation to balance the forces around their cleaning (e.g. dishwashing machines), usage (e.g.that first careful sip to gauge temperature, the measured sips as the beverage cools, and the carefree swigs after the beverage has cooled.If we want to drink a hot beverage over a good conversation with a friend, we may use a large cup, so that it can contain enough coffee or tea to last the whole conversation, thick enough not to scald our fingers, yet thin enough to warm heating in microwaves), and storage (e.g. refrigerators). 
+To drink a glass of water, we would probably use a clear glass so that we can can hold it up to sunlight to ensure that the water is free from floating particles, broad enough so we can
+encircle all of our fingers to get a firm grip, with a heavy base so that it doesn't topple over easily, and tall enough to quench our thirst. The shape of cups and glasses have held a stable form as the manner in which we drink from them has not changed since their inception.
 
 what-is-embodied-making-4
 
@@ -22,7 +25,9 @@ How do ensure our solutions truly solve the problems posed by an environment rat
 participation of the people who live and work in that environment. Embodied makers work with rather than for people, play a facilitative role in understanding an environment by faithfully recording narratives as they are related to them, possess a learning attitude to understand the complexity
 present in an environment, and are adept at coming up with solutions that balance forces elegantly by being deeply critical of their own ideas through introspection.
 
-In contrast, the forms of clothing for the same human form around the world have near infinite variety reflecting the varying forces of climate, vegetation, culture, belief systems, community, and individuality. Some clothing trends such as hoop skirts and whalebone corsets were short-lived, partially because they relied on unsus or hands on a cold winter evening, and with large handles to afford nestling several fingers to lift its heavy contents and body.
+Adaptation, if at all, has occurred with the emergence of new materials and methods of ornamentation to balance the forces around their cleaning (e.g. dishwashing machines), usage (e.g.
+heating in microwaves), and storage (e.g. refrigerators). In contrast, the forms of clothing for the same human form around the world have near infinite variety reflecting the varying forces of climate, vegetation, culture, belief systems,
+community, and individuality.
 
 what-is-embodied-making-5
 
@@ -30,10 +35,11 @@ Yet we are capable of dealing with complexity from an early age by probing, lear
 with complexity can make us habituated to existing solutions,
 and blinding us to new opportunities. By cultivating a perpetual curiosity of the kind best embodied by toddlers,and possessing an ability to be formed and reformed like wet clay on a potter wheel, we become better makers.
 
-To drink a glass of water, we would probably use a clear glass so that we can hold it up to sunlight to ensure that the water is free from floating particles, broad enough so we can encircle all of our fingers to get a firm grip, with a heavy base so that it does not unsustainable practices like extensive whaling.
+Some clothing trends such as hoop skirts and whalebone corsets were short-lived, partially because they relied on unsustainable
+practices like extensive whaling. Sarongs, shirts, tunics, and trousers, on the other hand, have a timeless appeal by their ability to resolve a large scale of forces consistently over time.
 
 what-is-embodied-making-6
 
 Embodied making is applied in the same way to make household appliances, software systems, organisations, or cities. It complements other methods of analysis, engineering, construction, and manufacturing by helping understand and structure genuine needs, qualitative criteria, and intangibles such as influence and power. Environments with high complexity usually require makers to use structured techniques for recording, categorising and visualising stories,forces, and solutions. Mastery in the method is gradually obtained when makers are able to extract and refine the formative stories in an environment, cognitively balance a high scale of forces, and formulate solutions that resolve forces and embrace stories elegantly.
 
-Sarongs, shirts, tunics, and trousers on the other hand, have a timeless appeal by their ability to resolve a large scale of forces consistently over time. Making timeless and elegant forms is hard, as the forces that seem stable today may not be so for long. Embodied making helps understand complexity to make such timeless forms.
+Making timeless and elegant forms is hard, as the forces that seem stable today may not be so for long. Embodied making helps understand complexity to make such timeless forms.
