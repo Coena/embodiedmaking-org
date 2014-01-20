@@ -1,4 +1,4 @@
-an-applied-example-1
+an-appleied-example-1
 
 The process of design with embodied making starts with listening to people in the space where we want our designs to live and rest. Stories are anecdotes as people relate them to us, and these are faithfully recorded as they are told to us.
 <ol>
@@ -12,7 +12,20 @@ The process of design with embodied making starts with listening to people in th
 
 Stories should be gathered from several perspectives. In the example of the meeting room, stories from the users of meeting rooms, building security, receptionists, moderators of meetings, visitors to the building to who come for a meeting, maintenance staff, or cleaning staff will help create a rich tapestry as the basis of designs.
 
-an-applied-example-2
+an-appleied-example-2
+
+As designers, we must also be conscious of our own will,and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
+<ol>
+<l>W01. Desire for low cost solutions</li>
+<li>W02. Desire not to inconvenience meeting room users.</li>
+<l>W03. Desire to keep organizational culture intact.</li>
+<li>W04. Desire to make meeting room usage fun.</li>
+<li>W05. Desire to use of common locks and keys.</li>
+There is no clear or sharp distinction between wills and forces. They come from two directions. Wills comes from self awareness of the designer or requirements of the patron, and forces come from observation of patterns of behavior, culture, or nature in the design environment. By integrating the perspectives of wills and forces, designers can propose solutions that ëworkí.
+
+As we catalog more and more stories from this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills.Interactions between wills and forces reveal their conduciveness to exist in the same space. As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them.
+
+an-applied-example-3
 
 What induces people to behave in the way they do in their environments? Or motivates them to decide on a particular course of action? These factors are called forces in embodied making. We can identify some of these forces from the stories:
 <ul>
@@ -32,36 +45,40 @@ What induces people to behave in the way they do in their environments? Or motiv
 <li>6 F14. Use of high-quality equipment in meetings.</li>
 <ul>
 
-As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn‚Äôt to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
+ Each idea should be written down as a solution component, examining different perspectives, more and more forces will emerge.The objective of enumerating forces isnít to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
 
-an-applied-example-3
-
-If we are able to find an elegant solution that is both stable and reliable, and this solution would be able to balance all of these forces (let‚Äôs assume for now that these stories and forces are complete), we would have created a system that would fulfill the requirements of sharing meeting rooms effectively. We can gain insight into how these forces exist in their environments by exploring how they interact with each other, by placing a (+) sign for a pleasant experience, a (-) sign for an unpleasant experience, and (~) for a neutral experience.
-
-Understanding the interactions between forces helps designers live and experience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction, you will increasingly understand how all of these forces co-exist in the same space. Understanding the complex interactions has a meditative quality, and after while, a feeling of ‚Äúliving‚Äù the forces occurs for the designer.
-
-an-applied-example-4
-
-As designers, we must also be conscious of our own will, and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
-<ul>
-<li>W01. Desire for low cost solutions</li>
-<li>W02. Desire not to inconvenience meeting room users.</li>
-<li>W03. Desire to keep organizational culture intact.</li>
-<li>W04. Desire to make meeting room usage fun.</li>
-<li>W05. Desire to use of common locks and keys.</li>
-<ul>
-There is no clear or sharp distinction between wills and forces. They come from two directions. Wills comes from self awareness of the designer or requirements of the patron, and forces come from observation of patterns of behavior, culture, or nature in the design environment. By integrating the perspectives of wills and forces, designers can propose solutions that 'work'.
-
-Throughout this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills. Interactions between wills and forces reveal their conduciveness to exist in the same space.
 
 an-applied-example-5
 
 An understanding of the forces and wills gives insight into the solutions that would be most likely to resolve them.
 
-As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them. Each idea should be written down as a solution component, examining how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down.
+Understanding the interactions between forces helps designers live and explain how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down. In this example, we want to create compassion and empathy,and we can achieve this by finding analogies or metaphors that inspire those emotions.
+
+an-applied-example-4
+
+If we are able to find an elegant solution that is both stable
+and reliable, and this solution would be able to balance all of
+these forces (letís assume for now that these stories and forces
+are complete), we would have created a system that would fulfill the requirements of sharing meeting rooms effectively.We can gain insight into how these forces exist in their environments
+by exploring how they interact with each other, by placing a (+) sign for a pleasant experience, a (-) sign for an unpleasant experience, and (~) for a neutral experience.
+<ol>
+F01 :: -F03, -F04, +F05, +F06, +F07, -F08, -F09, -F10, -F12, -F13<ol>
+F02 :: -F03, -F08, -F09, -F12, -F13<ol>
+F03 :: -F01, -F02, +F04, +F05, -F08, -F09, -F11, -F12, -F14<ol>
+F04 :: -F01, F02, +F03, -F08, -F09, -F10, -F11, -F12, -F13<ol>
+F05 :: +F01, +F06, +F07, -F08, -F09, -F10, -F11, -F12, -F13<ol>
+and so on and so forth for F06 to F09<ol>
+F10 :: -F01, -F04, +F05, -F11, -F12, -F13<ol>
+F11 :: -F01, -F02, -F03, -F04, -F05, -F06, -F07, +F10, -F13<ol>
+F12 :: -F01, -F02, -F03, -F04, -F05, -F06, -F07, +F08, +F09, +F10..<ol>
+F13 :: -F01, -F02, -F05, -F06, -F07, -F08, -F09, -F11, -F12<ol>
+<ul>
+
+As there is a natural tendency for human beings to care for their perience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction,you will increasingly understand how all of these forces co-exist in the same space. Understanding the complex interactions has a meditative quality, and after while, a feeling of ìlivingî the forces occurs for the designer.
 
 an-applied-example-6
 
-And finally, we can realize and unify the solution using a combination of analogies and metaphors. For example, using the metaphor of a petting zoo...
 
-In this example, we want to create compassion and empathy, and we can achieve this by finding analogies or metaphors that inspire those emotions. There is a natural tendency for human beings to care for their pets. Animals should be selected for the vulnerability, and a connection to the planet can be found through featuring endangered animals.
+
+Throughout pets, associating the keys to animals transfers some of this care to the keys. Animals should be selected for the vulnerability, and a connection to the planet can be found through featuring endangered animals. By introducing gameplay at the key moments when keys are the most likely to go missing,
+moments susceptible to mishap can be averted.
