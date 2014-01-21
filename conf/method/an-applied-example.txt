@@ -14,20 +14,6 @@ Stories should be gathered from several perspectives. In the example of the meet
 
 an-applied-example-2
 
-As designers, we must also be conscious of our own will,and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
-<ul>
-<li>W01. Desire for low cost solutions</li>
-<li>W02. Desire not to inconvenience meeting room users.</li>
-<li>W03. Desire to keep organizational culture intact.</li>
-<li>W04. Desire to make meeting room usage fun.</li>
-<li>W05. Desire to use of common locks and keys.</li>
-</ul>
-There is no clear or sharp distinction between wills and forces. They come from two directions. Wills comes from self awareness of the designer or requirements of the patron, and forces come from observation of patterns of behavior, culture, or nature in the design environment. By integrating the perspectives of wills and forces, designers can propose solutions that 'work'.
-
-As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn't to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
-
-an-applied-example-3
-
 What induces people to behave in the way they do in their environments? Or motivates them to decide on a particular course of action? These factors are called forces in embodied making. We can identify some of these forces from the stories:
 <ul>
 <li>1 F01. Meeting rooms are shared by a lot of people.</li>
@@ -46,15 +32,9 @@ What induces people to behave in the way they do in their environments? Or motiv
 <li>6 F14. Use of high-quality equipment in meetings.</li>
 <ul>
 
-Understanding the interactions between forces helps designers live and experience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction,you will increasingly understand how all of these forces co-exist in the same space.
+As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn't to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
 
-an-applied-example-5
-
-An understanding of the forces and wills gives insight into the solutions that would be most likely to resolve them.
-
-Understanding the complex interactions has a meditative quality, and after while, a feeling of 'living' the forces occurs for the designer. Throughout this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills. Interactions between wills and forces reveal their conduciveness to exist in the same space. As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them.
-
-an-applied-example-4
+an-applied-example-3
 
 If we are able to find an elegant solution that is both stable
 and reliable, and this solution would be able to balance all of
@@ -73,6 +53,26 @@ and so on and so forth for F06 to F09</li>
 <li>F12 :: -F01, -F02, -F03, -F04, -F05, -F06, -F07, +F08, +F09, +F10..</li>
 <li>F13 :: -F01, -F02, -F05, -F06, -F07, -F08, -F09, -F11, -F12
 <ul>
+
+Understanding the interactions between forces helps designers live and experience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction,you will increasingly understand how all of these forces co-exist in the same space.
+
+an-applied-example-4
+
+As designers, we must also be conscious of our own will,and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
+<ul>
+<li>W01. Desire for low cost solutions</li>
+<li>W02. Desire not to inconvenience meeting room users.</li>
+<li>W03. Desire to keep organizational culture intact.</li>
+<li>W04. Desire to make meeting room usage fun.</li>
+<li>W05. Desire to use of common locks and keys.</li>
+</ul>
+There is no clear or sharp distinction between wills and forces. They come from two directions. Wills comes from self awareness of the designer or requirements of the patron, and forces come from observation of patterns of behavior, culture, or nature in the design environment. By integrating the perspectives of wills and forces, designers can propose solutions that 'work'.
+
+Understanding the complex interactions has a meditative quality, and after while, a feeling of 'living' the forces occurs for the designer. Throughout this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills. Interactions between wills and forces reveal their conduciveness to exist in the same space. As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them.
+
+an-applied-example-5
+
+An understanding of the forces and wills gives insight into the solutions that would be most likely to resolve them.
 
 Each idea should be written down as a solution component, examining how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down. In this example, we want to create compassion and empathy,and we can achieve this by finding analogies or metaphors that inspire those emotions.
 
