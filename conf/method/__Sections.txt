@@ -1,6 +1,6 @@
 what-is-embodied-making
 What is embodied making? 
-The basics of embodied making, and why it was created.
+The basics of embodied making.
 
 an-applied-example
 An applied example
