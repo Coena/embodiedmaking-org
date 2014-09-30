@@ -17,7 +17,6 @@ an-applied-example-2
 What induces people to behave in the way they do in their environments? Or motivates them to decide on a particular course of action? These factors are called forces in embodied making. We can identify some of these forces from the stories:
 <ul>
 <li>1 F01. Meeting rooms are shared by a lot of people.</li>
-<li>1 F02. Meeting rooms contain expensive equipment.</li>
 <li>1 F03. Desire to protect equipment in meeting rooms.</li>
 <li>1 F04. Limited number of meeting rooms.</li>
 <li>2 F05. Meeting rooms are booked with a single point.</li>
@@ -29,7 +28,7 @@ What induces people to behave in the way they do in their environments? Or motiv
 <li>4 F11. Returning keys is often inconvenient</li>
 <li>5 F12. Frequent loss of meeting room keys.</li>
 <li>5 F13. Inability to distinguish keys of meeting rooms.</li>
-<li>6 F14. Use of high-quality equipment in meetings.</li>
+<li>6 F02. Meeting rooms contain expensive equipment.</li>
 <ul>
 
 As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn't to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
@@ -42,9 +41,9 @@ these forces (let's assume for now that these stories and forces
 are complete), we would have created a system that would fulfill the requirements of sharing meeting rooms effectively.We can gain insight into how these forces exist in their environments
 by exploring how they interact with each other, by placing a (+) sign for a pleasant experience, a (-) sign for an unpleasant experience, and (~) for a neutral experience.
 <ul>
-<li>F01 :: -F03, -F04, +F05, +F06, +F07, -F08, -F09, -F10, -F12, -F13</li>
+<li>F01 :: -F02, -F03, -F04, +F05, +F06, +F07, -F08, -F09, -F10, -F12, -F13</li>
 <li>F02 :: -F03, -F08, -F09, -F12, -F13</li>
-<li>F03 :: -F01, -F02, +F04, +F05, -F08, -F09, -F11, -F12, -F14</li>
+<li>F03 :: -F01, -F02, +F04, +F05, -F08, -F09, -F11, -F12</li>
 <li>F04 :: -F01, F02, +F03, -F08, -F09, -F10, -F11, -F12, -F13</li>
 <li>F05 :: +F01, +F06, +F07, -F08, -F09, -F10, -F11, -F12, -F13</li>
 <li>F06 :: -F01, +F05, +F07, -F08, -F09, -F11, -F12, -F13</li>
@@ -83,5 +82,4 @@ an-applied-example-6
 
 
 
-As there is a natural tendency for human beings to care for their pets, associating the keys to animals transfers some of this care to the keys. Animals should be selected for the vulnerability, and a connection to the planet can be found through featuring endangered animals. By introducing gameplay at the key moments when keys are the most likely to go missing,
-moments susceptible to mishap can be averted.
+As there is a natural tendency for human beings to care for their pets, associating the keys to animals transfers some of this care to the keys. Animals should be selected for the vulnerability, and a connection to the planet can be found through featuring endangered animals. By introducing gameplay at the key moments when keys are the most likely to go missing, moments susceptible to mishap can be averted.
