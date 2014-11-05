@@ -1,0 +1,16 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/change\.scss;
+  }
+
+  line {
+    font-family: \000033;
+  }
+}
+
+#change {
+  color: #ececef;
+  text-shadow: 1px 2px 8px #000;
+  background: url("/images/tea.jpg") center center;
+  background-size: cover;
+}

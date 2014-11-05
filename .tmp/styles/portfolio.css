@@ -1,0 +1,16 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/portfolio\.scss;
+  }
+
+  line {
+    font-family: \000033;
+  }
+}
+
+#patterns {
+  color: #ececef;
+  text-shadow: 1px 2px 8px #000;
+  background: url("/images/book.jpg") center center;
+  background-size: cover;
+}

@@ -1,0 +1,360 @@
+@media screen and (max-width: 640px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \000035;
+    }
+}
+
+  #home #pf-intro-container {
+    width: 100%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \000038;
+    }
+}
+
+  #home #pf-intro-container blockquote {
+    padding: 150px 40px 40px;
+    text-align: center;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000314;
+    }
+}
+
+  #home #pf-logo {
+    margin-top: 20px;
+    width: 20%;
+    min-width: 150px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000321;
+    }
+}
+
+  #pf-nav,
+  #pf-logo-content {
+    display: none;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000326;
+    }
+}
+
+  #contents #pf-nav-content {
+    left: initial;
+    right: 0px;
+    width: 50px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000334;
+    }
+}
+
+  #contents .pf-content-container {
+    padding: 50px 75px 50px 25px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000338;
+    }
+}
+
+  #contents .nav-vertical ul li a {
+    line-height: 40px;
+    background-size: 40px 40px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000343;
+    }
+}
+
+  #contents section {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000347;
+    }
+}
+
+  #contents section #home {
+    box-shadow: none;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000354;
+    }
+}
+
+  #background .pf-content-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000360;
+    }
+}
+
+  #background header,
+  #background div.jumbotron {
+    padding-left: 25px;
+    padding-right: 75px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000364;
+    }
+}
+
+  #background header p,
+  #background header h3,
+  #background div.jumbotron p,
+  #background div.jumbotron h3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000371;
+    }
+}
+
+  body > footer {
+    left: 0px;
+    right: initial;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000376;
+    }
+}
+
+  section#contact {
+    box-shadow: none;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000379;
+    }
+}
+
+  section#contact .pf-content-container {
+    background: #e3e3e9 url("/images/back.svg") center center;
+    background-size: 78px 135px;
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000389;
+    }
+}
+
+  section#contact #contact-grid {
+    display: none !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \0000393;
+    }
+}
+
+  section#contact article.location {
+    display: initial !important;
+    padding-bottom: 24px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003103;
+    }
+}
+
+  #contents .pf-content-container {
+    padding: 50px 25px 50px 25px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003108;
+    }
+}
+
+  #background .pf-content-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003114;
+    }
+}
+
+  #background header,
+  #background div.jumbotron {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003118;
+    }
+}
+
+  #background header p,
+  #background header h3,
+  #background div.jumbotron p,
+  #background div.jumbotron h3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003125;
+    }
+}
+
+  #pf-nav-content {
+    display: none;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/nitran\/embodiedmaking-org\/app\/styles\/small\.scss;
+    }
+
+    line {
+      font-family: \00003130;
+    }
+}
+
+  section#contact article.location {
+    width: 100%;
+  }
+}
