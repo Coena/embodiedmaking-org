@@ -1,13 +1,11 @@
 {
-  "name": "product-foundry-site",
+  "name": "embodiedmaking-org",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.6.2",
-    "jquery": "~1.11.0",
-    "twbs-bootstrap-sass": "~3.1.1",
-    "loglevel": "~0.5.0",
-    "hexlib": "~0.1.0",
-    "PreloadJS": "*"
-  },
-  "devDependencies": {}
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "font-awesome-bower": "~4.2.0",
+    "roboto-slab-fontface": "*",
+    "marked": "~0.3.2"
+  }
 }
