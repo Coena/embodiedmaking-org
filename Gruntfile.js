@@ -10,6 +10,7 @@
 
 module.exports = function (grunt) {
   grunt.loadNpmTasks('assemble');
+  grunt.loadNpmTasks('grunt-favicons');
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -28,7 +29,24 @@ module.exports = function (grunt) {
 
     // Project settings
     config: config,
-    
+
+      favicons: {
+          options: {
+              trueColor: true,
+              appleTouchBackgroundColor: '#ffffff',
+              coast: true,
+              windowsTile: true,
+              tileBlackWhite: false,
+              tileColor: '#00259a',
+              html: '.tmp/index.html',
+              HTMLPrefix: '/'
+          },
+          icons: {
+              src: '<%= config.app %>/images/favicon.png',
+              dest: '<%= config.dist %>/'
+          }
+      },
+
     assemble: {
       options: {
         flatten: true,
@@ -480,6 +498,7 @@ module.exports = function (grunt) {
     'modernizr',
     'rev',
     'usemin',
+    'favicons',
     'htmlmin'
   ]);
 
