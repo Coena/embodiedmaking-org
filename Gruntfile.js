@@ -11,6 +11,7 @@
 module.exports = function (grunt) {
   grunt.loadNpmTasks('assemble');
   grunt.loadNpmTasks('grunt-favicons');
+  grunt.loadNpmTasks('grunt-image-resize');
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -44,6 +45,18 @@ module.exports = function (grunt) {
           icons: {
               src: '<%= config.app %>/images/favicon.png',
               dest: '<%= config.dist %>/'
+          }
+      },
+
+      image_resize: {
+          resize: {
+              options: {
+                  quality: 0.7,
+                  height: "100%",
+                  overwrite: true
+              },
+              src: '<%= config.app %>/images/*.{jpg,jpeg}',
+              dest: '<%= config.dist %>/images/'
           }
       },
 
@@ -489,6 +502,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'wiredep',
     'concurrent:dist',
+    'image_resize',
     'useminPrepare',
     'autoprefixer',
     'concat',
