@@ -354,11 +354,16 @@ module.exports = function (grunt) {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
         }, {
-          expand: true,
-          dot: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
-          dest: '<%= config.dist %>'
+            expand: true,
+            flatten: true,
+            dot: true,
+            cwd: '.',
+            dest: '<%= config.dist %>/styles/fonts',
+            src: [
+                'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*',
+                'bower_components/font-awesome/fonts/*.*',
+                'bower_components/roboto-slab-fontface/fonts/*.*'
+            ]
         }]
       },
       styles: {
@@ -367,7 +372,20 @@ module.exports = function (grunt) {
         cwd: '<%= config.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
-      }
+      },
+      fonts: {
+                expand: true,
+                flatten: true,
+                dot: true,
+                cwd: '.',
+                dest: '.tmp/styles/fonts',
+                src: [
+                    'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*',
+                    'bower_components/font-awesome/fonts/*.*',
+                    'bower_components/roboto-slab-fontface/fonts/*.*'
+                ]
+            }
+
     },
 
     // Generates a custom Modernizr build that includes only the tests you
@@ -392,14 +410,17 @@ module.exports = function (grunt) {
       server: [
         'sass:server',
         'copy:styles',
+        'copy:fonts',
         'assemble'
       ],
       test: [
-        'copy:styles'
+        'copy:styles',
+        'copy:fonts'
       ],
       dist: [
         'sass',
         'copy:styles',
+        'copy:fonts',
         'assemble',
         'imagemin',
         'svgmin'
