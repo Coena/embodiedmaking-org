@@ -52,7 +52,7 @@ module.exports = function (grunt) {
           resize: {
               options: {
                   quality: 0.7,
-                  height: "100%",
+                  height: '100%',
                   overwrite: true
               },
               src: '<%= config.app %>/images/*.{jpg,jpeg}',

@@ -50,6 +50,8 @@ $(document).ready(function(){
   };
   $('#main-nav a').click(scrollToPosition);
   
+  var originalAllModalsContent = $('#allModalContent').html();
+  
   var clickedModalNavigationItem = false;
   function loadDifferentContent() {
   $('.load-different-content').each(function () {
@@ -74,7 +76,7 @@ $(document).ready(function(){
           //clear old data
           $(openModal).removeData('bs.modal');
           //verify if data needed is new or the original
-          if(toBeLoadedId == '#' + openModalId){
+          if(toBeLoadedId === '#' + openModalId){
             var originalDataContent = $('#basicsModalHolder').find('.modal-content').html();
             //append original data it var request data-content is equal to the original modal id
             $(openModal).find('.modal-content').html(originalDataContent);
@@ -82,6 +84,12 @@ $(document).ready(function(){
             //append new data
             $(openModal).find('.modal-content').html(contentToBeLoaded);
           }
+          $(openModal).on('hide.bs.modal', function () {
+            //reload original modals content on modal close
+            console.log('test');
+            $('#allModalContent').html(originalAllModalsContent);
+            loadDifferentContent();
+          });
           //show new data
           $(openModal).modal('show');
           //make generic nav function available to new content
@@ -89,7 +97,6 @@ $(document).ready(function(){
         });
     });
   }
-
   loadDifferentContent();
   
 });
