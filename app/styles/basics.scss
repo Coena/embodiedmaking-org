@@ -138,16 +138,16 @@
     .intro-text {
       padding: 0;
       .intro-heading {
-        @include set(font-size, (xs: 20px, sm: 18px, md: 22px, lg: 26px) );
-        line-height: 1.4;
+        @include set(font-size, (xs: 20px, sm: 18px, md: 22px, lg: 28px) );
+        line-height: 1.2;
         margin: 0;
         padding: 5px 0 10px;
-        font-weight: 700;
+        font-weight: 300;
       }
       .intro-lead-in {
         text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-        @include set(font-size, (xs: 14px, sm: 15px, md: 15px, lg: 18px) );
-        line-height: 1.4;
+        @include set(font-size, (xs: 12px, sm: 14px, md: 14px, lg: 15px) );
+        line-height: 1.2;
         font-weight: 300;
       }
     }
@@ -164,7 +164,7 @@
       @include set(height, (xs: 175px, sm: 200px, md: 250px, lg: 300px) );
       > [class*="col-"] {
         height: 100%;
-        background: rgba(255,255,255,0.8);
+        background: rgba(255,255,255,0.9);
       }
     }
   }
