@@ -188,7 +188,7 @@ footer {
   cursor: pointer;
   border-radius: 5px;
   z-index: 10;
-  &:hover {
+  &:hover, &:focus {
     opacity: .3;
   }
   .lr {
