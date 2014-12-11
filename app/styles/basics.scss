@@ -103,7 +103,7 @@
       opacity: 0;
       font-weight: 100;
     }
-    &:hover {
+    &:hover, &:focus {
       img {
         opacity: 0.2;
         transform: scale3d(1.05,1.05,1);
