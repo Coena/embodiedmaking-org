@@ -9,6 +9,7 @@ $fa-font-path: $font-path;
 @import 'mixins';
 @import 'variables';
 @import 'basics';
+@import "patterns";
 
 // Breakpoint starting viewport widths
 $sm:  768px;
