@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <div ng-repeat="paragraph in details">
+                <h3 class="light">{{paragraph.title}}:</h3>
+                <p ng-bind-html="paragraph.content">{{paragraph.content}}</p>
+            </div>
+        </div>
+    </div>
+</div>

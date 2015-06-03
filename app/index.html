@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/material-design-iconic-font/css/material-design-iconic-font.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="businessElementsSiteApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header-bar">
+      <p><span ng-bind="$root.title"></span> <i ng-class="'md ' + $root.pageIcon"></i></p>
+    </div>
+
+    <div class="interactions-bar">
+      <div class="generic-element-container interactions-element-container user-profile">
+        <p>
+          <a href="#/">
+            <img src="images/image1.jpg" alt="connected user" />
+          </a>
+        </p>
+      </div>
+      <div class="generic-element-title cursor-pointer" data-toggle="collapse" href="#interactionsCollapse" aria-expanded="true" aria-controls="interactionsCollapse">
+        <p class="m0">Interactions <i class="md md-arrow-drop-down"></i></p>
+      </div>
+      <div class="collapse in" id="interactionsCollapse">
+        <div class="generic-element-container interactions-element-container single-interaction">
+          <a href="#/interactions">
+            <span class="default-user">
+              <img src="images/image12.jpg" alt="connected user" />
+            </span>
+            <small>Jan de Boer</small>
+          </a>
+        </div>
+        <div class="generic-element-container interactions-element-container double-interaction">
+          <a href="#/interactions">
+            <span class="default-user">
+              <img src="images/image2.jpg" alt="connected user" />
+            </span>
+            <span class="default-user red">
+              <i class="md md-person"></i>
+            </span>
+            <small>Katharina ... + 1</small>
+          </a>
+        </div>
+        <div class="generic-element-container interactions-element-container multiple-interaction">
+          <a href="#/interactions">
+            <span class="default-user green">
+              <i class="md md-person"></i>
+            </span>
+            <span class="default-user">
+              <img src="images/image10.jpg" alt="connected user" />
+            </span>
+            <span class="default-user red">
+              <img src="images/image12.jpg" alt="connected user" />
+            </span>
+            <small>Matthew ... + 2</small>
+          </a>
+        </div>
+        <div class="generic-element-container interactions-element-container single-interaction">
+          <a href="#/interactions">
+            <span class="default-user orange">
+              <i class="md md-person"></i>
+            </span>
+            <small>Kevin Smith</small>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools-bar">
+      <div class="generic-element-container tools-element-container logo-container">
+        <div class="hex-shape red">
+          <a href="#" class="logo-link">
+            <img id="be-logo" src="images/be-logo-mark.svg">
+          </a>
+        </div>
+      </div>
+      <div class="generic-element-container tools-element-container">
+        <p>
+          <a href="#"><i class="md md-search"></i></a>
+        </p>
+      </div>
+      <div class="generic-element-container tools-element-container">
+        <p>
+          <a href="#"><i class="md md-account-balance"></i></a>
+        </p>
+      </div>
+      <div class="generic-element-container tools-element-container">
+        <p>
+          <a href="#"><i class="md md-grain"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="views-container">
+      <div ng-view=""></div>
+    </div>
+
+    <div class="notifications-bar">
+        <p>&copy; <span id="current-year"></span> <a href="http://product-foundry.com">Product Foundry</a>. <a href="#/legal">Legal notice</a>. All rights reserved.</p>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/interactions.js"></script>
+        <script src="scripts/controllers/legal.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
