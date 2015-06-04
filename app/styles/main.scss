@@ -13,6 +13,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
+#home {
+  text-align: center;
+  color: #fff;
+  background: url(../images/home.jpg) no-repeat center center;
+  background-size: cover;
+  text-shadow: 1px 2px 8px #000;
+  .pattern{
+    transform-style: preserve-3d;
+  }
+}
+
 body {
   padding: 0;
   font-family: 'PT Serif', serif;
