@@ -5,6 +5,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "variables";
 @import "mixins";
+@import "_interactions";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -13,38 +14,52 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
-#home {
-  text-align: center;
-  color: #fff;
-  background: url(../images/home.jpg) no-repeat center center;
-  background-size: cover;
-  text-shadow: 1px 2px 8px #000;
-  .pattern{
-    transform-style: preserve-3d;
-  }
-}
-
 body {
   padding: 0;
   font-family: 'PT Serif', serif;
   font-weight: 400;
   color: $basic-color;
   background: $background-color;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color:#7a7a7a;
+}
+
+/* No gutter rows for bootstrap */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  > [class^="col-"], > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* Full height rows and columns for bootstrap */
+.row.full-height {
+  display: table;
+  height: 100%;
+  width: 100%;
+  > [class^="col-"], > [class*=" col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
 }
 
 /* Toolbars */
 .generic-element-container {
   width: 100%;
-  height: 70px;
+  height: 65px;
   p{
     margin: 0;
     text-align: center;
-    line-height: 70px;
+    line-height: 65px;
   }
 }
 .generic-element-title {
@@ -65,23 +80,23 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 81px;
-  width: 80px;
+  bottom: 0px;
+  width: 75px;
   background: $white;
   border-right: 1px solid $border-color;
-  z-index: 2;
+  z-index: 10; /* higher than top and bottom bars, egual to right bar; higher z-index due to inner elements positionings that require lower z-indexes */
   box-shadow: $box-shadow-right;
 }
 .interactions-element-container {
   height: 90px;
   &.user-profile {
     border-bottom: 1px solid $border-color;
-    height: 80px;
+    height: 75px;
     p {
-      line-height: 80px;
+      line-height: 75px;
     }
     a {
-      height: 80px;
+      height: 75px;
     }
     img {
       border: 1px solid $border-color;
@@ -177,11 +192,11 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 81px;
-  width: 80px;
+  bottom: 0px;
+  width: 65px;
   background: $white;
   border-left: 1px solid $border-color;
-  z-index: 2;
+  z-index: 10;
   box-shadow: $box-shadow-left;
 }
 .hex-shape {
@@ -205,8 +220,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .tools-element-container {
   &.logo-container {
-    height: 80px;
-    padding: 15px;
+    height: 75px;
+    padding: 10px;
     p {
       line-height: 80px;
     }
@@ -238,17 +253,17 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   right: 0;
-  left: 81px;
-  height: 80px;
-  width: calc(100% - 162px);
+  left: 75px;
+  height: 75px;
+  width: calc(100% - 140px);
   background: $background-color;
   border-bottom: 1px solid $border-color;
   outline: 1px solid $white;
-  z-index: 1;
+  z-index: 9;
   p {
     text-align: right;
     font-size: 18px;
-    line-height: 80px;
+    line-height: 75px;
     padding-right: 20px;
   }
   i {
@@ -266,14 +281,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 80px;
   background: $background-color;
   border-top: 1px solid $border-color;
-  z-index: 3;
+  z-index: 9;
   box-shadow: $box-shadow-top;
   padding: 0 81px;
+  p {
+    line-height: 80px;
+  }
 }
 
 /* Container */
 .views-container {
-  padding: 90px;
+  padding: 0px 0px 0px 0px;
   margin: 0;
   border: 0;
   height: 100vh;
@@ -282,14 +300,157 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
   }
 }
+
+.container-fluid.main-container{
+  padding:0;
+  img {
+    position:relative;
+    width:100%;
+    position:relative;
+    left:50%;
+    transform:translate (-50%,-50%);
+    margin-left:-50%;
+  }
+}
+
+#menu-top {
+font-size: 26px;
+font-family: "PT Serif";
+position: absolute;
+top:0;
+}
+
+#menu-top div {
+left: 755px;
+width: 250px;
+}
+.background-image {
+position: relative;
+width: 100%;
+height:800px;
+}
+.background-image > img {
+width: 100%;
+height:800px;
+}
+.logo-mainpage{
+  position: absolute;
+  width:80px;
+   top: 20%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu-mainpage {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+   h1 {
+    font-family: PT Serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+  }
+    h2 {
+      font-family: PT Serif;
+      color: white;
+      text-align: center;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 30px;
+      color: white;
+      margin: 0;
+      position: relative;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+      text-transform: uppercase;
+      padding-top:20px;}
+
+
+    h3 {
+      font-family: PT Serif;
+      color: white;
+      text-align: center;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
+      margin: 0;
+      position: relative;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+      text-transform: lowercase;}
+
+}
+
+/*Patterns*/
+.center-block {
+    max-width: 1200px;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.patterns-link {
+    background-color: #fff;
+    border: 0 solid #eee;
+    box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(0, 0, 0, 0.03);
+    color: #797984;
+    display: block;
+    margin: 0 0 20px;
+    max-width: 600px;
+    min-height: 420px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.patterns-link .infoblock {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Generic rules */
 .vertical-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.full-height {
+  height: 100%;
 }
 .m0 {
   margin: 0;
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.white-background {
+  background-color: $white;
+}
+.right-box-shadow {
+  box-shadow: $box-shadow-right;
+}
+.header {
+  height:60px;
+  width:100%;
+  background-color: #5251bf;
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    position: relative;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
 }
