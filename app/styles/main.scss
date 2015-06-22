@@ -84,7 +84,19 @@ h1, h2, h3, h4, h5, h6 {
   width: 75px;
   background: $white;
   border-right: 1px solid $border-color;
-  z-index: 10; /* higher than top and bottom bars, egual to right bar; higher z-index due to inner elements positionings that require lower z-indexes */
+  z-index: 10;  /*higher than top and bottom bars, egual to right bar; higher z-index due to inner elements positionings that require lower z-indexes */
+  box-shadow: $box-shadow-right;
+}
+.interactions-bar-nr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  width: 75px;
+  height:75px;
+  background:transparent;
+  border-right: 1px solid $border-color;
+  z-index: 10;  /*higher than top and bottom bars, egual to right bar; higher z-index due to inner elements positionings that require lower z-indexes */
   box-shadow: $box-shadow-right;
 }
 .interactions-element-container {
@@ -199,6 +211,19 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
   box-shadow: $box-shadow-left;
 }
+.tools-bar-nr {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0px;
+  width: 65px;
+  height:75px;
+  background: transparent;
+  border-left: 1px solid $border-color;
+  z-index: 10;
+  box-shadow: $box-shadow-left;
+}
+
 .hex-shape {
   background-repeat: no-repeat;
   width: 50px;
@@ -243,11 +268,36 @@ h1, h2, h3, h4, h5, h6 {
         background-color: transparent;
       }
       img {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
       }
     }
   }
+}
+.user-icon-container {
+  display:block;
+  width:75px;
+  height:75px;
+}
+.user-icon{
+    color: rgba(0,0,0, 0.5);
+    font-size: 50px;
+    padding-left:10px;
+    vertical-align: middle;
+    text-align: center;
+    position:fixed;
+    z-index:300;
+}
+.logo {
+ width:65px;
+ height:65px;
+ position:fixed;
+ right:0;
+ z-index:300;
+ img {
+        width: 50px;
+        height: 50px;
+      }
 }
 .header-bar {
   position: fixed;
@@ -271,6 +321,47 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     vertical-align: middle;
   }
+}
+
+.header-bar-nr {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0px;
+  height: 75px;
+  width: 100%;
+  background: rgba(255,255,255, 0.7);
+  /*border-bottom: 1px solid $border-color;
+  outline: 1px solid $white;*/
+  text-align: right;
+  padding-top:30px;
+  padding-right:20px;
+  z-index: 9;
+  p {
+    text-align: right;
+    font-size: 18px;
+    line-height: 75px;
+    padding-right: 20px;
+  }
+  i {
+    color: #EB7800;
+    font-size: 24px;
+    vertical-align: middle;
+  }
+}
+
+.menu-items{
+    font-family: PT Serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 100;
+    padding-right: 70px;
+    padding-top: 20px;
+    right: 0;
+    position:relative;
+    text-align: right;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
 }
 
 .notifications-bar {
@@ -331,7 +422,7 @@ height:800px;
 }
 .background-image > img {
 width: 100%;
-height:800px;
+height: 800px;
 }
 .logo-mainpage{
   position: absolute;
@@ -345,15 +436,18 @@ height:800px;
    top: 50%;
    left: 50%;
   transform: translate(-50%, -50%);
+  width:100%;
    h1 {
     font-family: PT Serif;
-    font-weight: 300;
+    font-size: 40px;
     color: white;
     text-align: center;
     margin: 0;
     position: relative;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
+    padding-top:100px;
+    padding-bottom:300px;
   }
     h2 {
       font-family: PT Serif;
@@ -365,7 +459,7 @@ height:800px;
       color: white;
       margin: 0;
       position: relative;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
       text-transform: uppercase;
       padding-top:20px;}
 
@@ -374,14 +468,15 @@ height:800px;
       font-family: PT Serif;
       color: white;
       text-align: center;
-      font-weight: 100;
-      font-size: 20px;
-      line-height: 20px;
+      font-size: 16px;
+      line-height: 18px;
       color: white;
       margin: 0;
       position: relative;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
-      text-transform: lowercase;}
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+      text-transform: lowercase;
+      font-style: italic;
+    }
 
 }
 
@@ -454,3 +549,12 @@ height:800px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
 }
+
+.menu-buttons{
+    background-color: transparent;
+    border-color: transparent;
+    color: #333;
+}
+
+.dropdown {
+  display:inline;}
