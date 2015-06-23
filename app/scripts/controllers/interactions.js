@@ -3,12 +3,12 @@
 
 /**
  * @ngdoc function
- * @name businessElementsSiteApp.controller:AboutCtrl
+ * @name embodiedmakingOrgApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the businessElementsSiteApp
+ * Controller of the embodiedmakingOrgApp
  */
-angular.module('businessElementsSiteApp')
+angular.module('embodiedmakingOrgApp')
   .controller('InteractionsCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

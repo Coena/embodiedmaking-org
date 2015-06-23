@@ -8,8 +8,6 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-
-    <link rel="stylesheet" href="bower_components/material-design-iconic-font/css/material-design-iconic-font.css" />
     <link rel="stylesheet" href="bower_components/perfect-scrollbar/src/perfect-scrollbar.css" />
     <!-- endbower -->
     <!-- endbuild -->
@@ -18,7 +16,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="businessElementsSiteApp">
+  <body ng-app="embodiedmakingOrgApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -27,66 +25,62 @@
 <div class="interactions-bar-nr md md-account-circle user-icon "></div>
 <div class="header-bar-nr">
 
+
+
 <div class="container">
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle menu-buttons" type="button" id="menu1" data-toggle="dropdown">Discover
+<span class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Discover
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">The Basics</a></li>
-      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#the_basics">The Basics</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
     </ul>
-  </div>
+  </span>
 
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle menu-buttons" type="button" id="menu1" data-toggle="dropdown">Programs
+  <span class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Programs
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">The Basics</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Content Subscriptions</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Courses</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Schedule</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Certification</a></li>
     </ul>
-  </div>
+  </span>
 
-<div class="dropdown">
-    <button class="btn btn-default dropdown-toggle menu-buttons" type="button" id="menu1" data-toggle="dropdown">Internship
+<span class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Internship
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">The Basics</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Embodied Making Internship</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Current Openings</a></li>
     </ul>
-  </div>
+  </span>
 
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle menu-buttons" type="button" id="menu1" data-toggle="dropdown">Practitioners
+  <span class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Practitioners
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">The Basics</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Overview</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Partners</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Directory</a></li>
     </ul>
-  </div>
+  </span>
 
-<div class="dropdown">
-    <button class="btn btn-default dropdown-toggle menu-buttons" type="button" id="menu1" data-toggle="dropdown">Contact us
+<span class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Contact us
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">The Basics</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Embodied Making Institute</a></li>
     </ul>
-  </div>
+  </span>
     </div>
+
  <div class="tools-bar-nr">
     <div class="generic-element-container tools-element-container logo-container">
-      <a href="#" class="logo-link">
-            <img id="em-logo" src="images/Logo-sign.png">
+      <a href="#main" class="logo-link">
+            <img id="em-logo" src="images/Logo-sign.png" href="#main">
           </a>
 </div>
     </div>
@@ -228,6 +222,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/interactions.js"></script>
         <script src="scripts/controllers/legal.js"></script>
+        <script src="scripts/controllers/the_basics.js"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name businessElementsSiteApp.controller:LegalCtrl
+ * @name embodiedmakingOrgApp.controller:LegalCtrl
  * @description
  * # LegalCtrl
- * Controller of the businessElementsSiteApp
+ * Controller of the embodiedmakingOrgApp
  */
-angular.module('businessElementsSiteApp')
+angular.module('embodiedmakingOrgApp')
   .controller('HomepageCtrl', function ($scope, $resource) {
     $scope.details = $resource('scripts/jsons/homepage.json').query();
   });
