@@ -48,12 +48,30 @@ angular
         title: 'The basics',
         pageIcon: 'md-security'
       })
+      .when('/courses', {
+        templateUrl: 'views/courses.html',
+        controller: 'CoursesCtrl',
+        title: 'Courses',
+        pageIcon: 'md-security'
+      })
+      .otherwise({
+        redirectTo: '/'
+      })
+     .when('/programsoverview', {
+        templateUrl: 'views/programsoverview.html',
+        controller: 'ProgramsoverviewCtrl',
+        title: 'Programsoverview',
+        pageIcon: 'md-security'
+      })
       .otherwise({
         redirectTo: '/'
       });
+
+
   }).run(['$location', '$rootScope', function($location, $rootScope) {
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
         $rootScope.title = current.$$route.title;
         $rootScope.pageIcon = current.$$route.pageIcon;
     });
+
   }]);

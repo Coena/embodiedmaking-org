@@ -23,17 +23,15 @@
 
     <!-- Add your site or application content here -->
 <div class="interactions-bar-nr md md-account-circle user-icon "></div>
+
 <div class="header-bar-nr">
-
-
-
 <div class="container">
 <span class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Discover
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Method
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#the_basics">The Basics</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Training Material</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Embodied Making Book</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Examples</a></li>
     </ul>
   </span>
@@ -42,8 +40,8 @@
     <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Programs
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Content Subscriptions</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Courses</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#programsoverview">Overview</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#courses">Courses</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Schedule</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Certification</a></li>
     </ul>
@@ -76,6 +74,12 @@
     </ul>
   </span>
     </div>
+
+
+
+
+
+
 
  <div class="tools-bar-nr">
     <div class="generic-element-container tools-element-container logo-container">
@@ -182,6 +186,7 @@
     </div>-->
 
     <div class="views-container">
+
       <div ng-view=""></div>
     </div>
 
@@ -223,6 +228,8 @@
         <script src="scripts/controllers/interactions.js"></script>
         <script src="scripts/controllers/legal.js"></script>
         <script src="scripts/controllers/the_basics.js"></script>
+        <script src="scripts/controllers/courses.js"></script>
+        <script src="scripts/controllers/programsoverview.js"></script>
         <!-- endbuild -->
 </body>
 </html>
