@@ -20,7 +20,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'perfect_scrollbar'
+    'perfect_scrollbar',
+    'ngMdIcons'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -63,6 +64,19 @@ angular
         title: 'Programsoverview',
         pageIcon: 'md-security'
       })
+     .when('/embook', {
+        templateUrl: 'views/embook.html',
+        controller: 'EmbookCtrl',
+        title: 'Embodied Making Book',
+        pageIcon: 'md-security'
+      })
+     .when('/meetingroom', {
+        templateUrl: 'views/meetingroom.html',
+        controller: 'MeetingroomCtrl',
+        title: 'Meeting Room Example',
+        pageIcon: 'md-security'
+      })
+
       .otherwise({
         redirectTo: '/'
       });
