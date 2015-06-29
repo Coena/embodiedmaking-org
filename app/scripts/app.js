@@ -45,7 +45,7 @@ angular
       })
       .when('/the_basics', {
         templateUrl: 'views/the_basics.html',
-        controller: 'The_basicsCtrl',
+        controller: 'TheBasicsCtrl',
         title: 'The basics',
         pageIcon: 'md-security'
       })
@@ -60,7 +60,7 @@ angular
       })
      .when('/programsoverview', {
         templateUrl: 'views/programsoverview.html',
-        controller: 'ProgramsoverviewCtrl',
+        controller: 'ProgramsOverviewCtrl',
         title: 'Programsoverview',
         pageIcon: 'md-security'
       })
@@ -72,11 +72,16 @@ angular
       })
      .when('/meetingroom', {
         templateUrl: 'views/meetingroom.html',
-        controller: 'MeetingroomCtrl',
+        controller: 'MeetingRoomCtrl',
         title: 'Meeting Room Example',
         pageIcon: 'md-security'
       })
-
+      .when('/foundation-analyst', {
+        templateUrl: 'views/foundation-analyst.html',
+        controller: 'FoundationAnalystCtrl',
+        title: 'Foundation Analyst',
+        pageIcon: 'md-security'
+      })
       .otherwise({
         redirectTo: '/'
       });

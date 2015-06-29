@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name embodiedmakingOrgApp.controller:MeetingRoomCtrl
+ * @name embodiedmakingOrgApp.controller:FoundationAnalystCtrl
  * @description
  * # FoundationAnalystCtrl
  * Controller of the embodiedmakingOrgApp
  */
 angular.module('embodiedmakingOrgApp')
-  .controller('MeetingRoomCtrl', function ($scope, $resource) {
+  .controller('FoundationAnalystCtrl', function ($scope, $resource) {
 
   });
