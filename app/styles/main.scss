@@ -499,17 +499,18 @@ height: 800px;
     height: auto;
     overflow: hidden;
     position: relative;
-    width: 100%;
     padding-bottom: 20px;
-    padding-top: 20px;course-details
-    img {float:left;}
+    padding-top: 20px;
+    img {
+      float:left;
+    }
 }
 .img-responsive {
     display: block;
     height: auto;
     width: 100%;
 }
-.patterns-link .infoblock {
+.infoblock {
     background-color: #fff;
     margin: 0 auto;
     padding: 20px;
@@ -721,11 +722,10 @@ a:link, a:visited {
   transform:translateY(-50%);
 }
 }
-
-.course-details {
-  .course-details-body {
+.course-details-body {
     font-size:12px;
   }
+.course-details {
   .panel-title{
     font-size:14px;
   }
@@ -735,6 +735,8 @@ a:link, a:visited {
   }
   .description {
     font-size:12px;
+    p{font-size:12px;
+    }
   }
   .rotate {
   -webkit-transform: rotate(-90deg);
@@ -763,4 +765,18 @@ td {
     height: 50px;
     vertical-align: center;
 }
+}
+
+.intro-container{
+  height:200px;
+  width:49%;
+  overflow:hidden;
+  display:inline-block;
+  padding-top:20px;
+}
+
+.intro-container >img{
+  height:100%;
+  width:auto;
+  position:relative;
 }

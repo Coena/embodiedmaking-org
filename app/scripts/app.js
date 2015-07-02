@@ -82,6 +82,18 @@ angular
         title: 'Foundation Analyst',
         pageIcon: 'md-security'
       })
+      .when('/method', {
+        templateUrl: 'views/method.html',
+        controller: 'MethodCtrl',
+        title: 'Method',
+        pageIcon: 'md-security'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'CountactCtrl',
+        title: 'Contact',
+        pageIcon: 'md-security'
+      })
       .otherwise({
         redirectTo: '/'
       });
