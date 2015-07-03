@@ -376,7 +376,9 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
+            'pdf/{,*/}*.*',
+            'send_mail.php'
           ]
         }, {
           expand: true,
