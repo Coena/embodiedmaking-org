@@ -514,6 +514,7 @@ height: 100%;
 .infoblock {
     background-color: #fff;
     margin: 0 auto;
+    min-height: 380px;
     padding: 10px;
     text-align: left;
     img {width:100%;
@@ -725,7 +726,7 @@ a:link, a:visited {
   width:100%;
   position:relative;
   top:50%;
-  transform:translateY(-50%);
+  transform:translateY(-40%);
 }
 }
 
@@ -871,3 +872,23 @@ form {
     }
 
   }
+
+.footer-bar{
+    background: rgba(255, 255, 255, 0.7);
+    height: 22px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 9;
+    vertical-align: center;
+    text-align:center;
+    line-height: 22px;
+    font-size: 12px;
+
+}
+#patterns {
+  padding: 20px 0 30px;
+}
