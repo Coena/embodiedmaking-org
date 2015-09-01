@@ -15,12 +15,19 @@
     border-width: 0 0 0 1px;
     border-style: solid;
     border-left-color: #c1c1c1;
-    line-height: 10px;
+    line-height: 15px;
     height: 150px;
     margin-top: 20px;
-    min-width: 165px;
         a {
             color: #6d6e70;;
         } 
 }
 
+.navbar-brand {
+    padding: 7px 10px;
+}
+
+.navbar {
+    border-radius: 0px;
+    border: 0px solid 
+}
