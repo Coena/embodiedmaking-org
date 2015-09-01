@@ -1,0 +1,15 @@
+.header-big {
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/images/freedomlab-amsterdam.jpg');
+    background-color: #000000;
+    background-position: center center;
+    background-size: cover;
+        .title-light {
+            color: #ffffff;
+        }
+        .dark-overlay {
+            opacity: 0.4;
+        }
+}
+
