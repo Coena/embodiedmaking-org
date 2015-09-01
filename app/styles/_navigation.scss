@@ -1,4 +1,5 @@
 .topmenu {
+    padding-top: 15px;
 }
 
 .icon-block {
@@ -14,10 +15,12 @@
     border-width: 0 0 0 1px;
     border-style: solid;
     border-left-color: #c1c1c1;
-    line-height: 2;
+    line-height: 10px;
     height: 150px;
+    margin-top: 20px;
+    min-width: 165px;
+        a {
+            color: #6d6e70;;
+        } 
 }
 
-.list-unstyled {
-    padding-left: 20px;
-}
