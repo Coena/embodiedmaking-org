@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
@@ -13,114 +14,121 @@
     <!-- endbuild -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-  </head>
-  <body ng-app="embodiedmakingOrgApp">
+</head>
+
+<body ng-app="embodiedmakingOrgApp">
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <!-- Add your site or application content here -->
-<div class="topmenu">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3">sign in</div>
-            <div class="col-md-2">
-                <div>
-                    <h3>Discover</h3>
+    <div class="topmenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-default icon-block" aria-label="Left Align">
+                        <span class="material-icons md-24">account_circle</span>
+                    </button>
+                </div>
+                <div class="col-md-2">
                     <div>
-                        <ul>
-                            <li>The Basics</li>
-                            <li>Training Materials</li>
-                            <li>Examples</li>
-                        </ul>
+                        <h3>Discover</h3>
+                        <div class="submenu-list">
+                            <ul class="list-unstyled">
+                                <li>The Basics</li>
+                                <li>Training Materials</li>
+                                <li>Examples</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div>
-                    <h3>Programs</h3>
+                <div class="col-md-2">
                     <div>
-                        <ul>
-                            <li>Libraries</li>
-                            <li>Courses</li>
-                            <li>Schedule</li>
-                            <li>Certification</li>
-                        </ul>
+                        <h3>Programs</h3>
+                        <div class="submenu-list">
+                            <ul class="list-unstyled">
+                                <li>Libraries</li>
+                                <li>Courses</li>
+                                <li>Schedule</li>
+                                <li>Certification</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div>
-                    <h3>Practitioners</h3>
+                <div class="col-md-2">
                     <div>
-                        <ul>
-                            <li>Overview</li>
-                            <li>Partner with us</li>
-                            <li>Directory</li>
-                        </ul>
+                        <h3>Practitioners</h3>
+                        <div  class="submenu-list">
+                            <ul class="list-unstyled">
+                                <li>Overview</li>
+                                <li>Partner with us</li>
+                                <li>Directory</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-3"> <a class="navbar-brand pull-right" href="#">Brand</a></div>
             </div>
-            <div class="col-md-3 text-right">Logo</div>
         </div>
     </div>
-</div>
-      
-      
-  <div class="views-container">
-    <div ng-view=""></div>
-  </div>
+
+
+    <div class="views-container">
+        <div ng-view=""></div>
+    </div>
 
 
 
-  <!--<div class="notifications-bar">
+    <!--<div class="notifications-bar">
     <p>&copy; <span id="current-year"></span> <a href="http://product-foundry.com">Product Foundry</a>. <a href="#/legal">Legal notice</a>. All rights reserved.</p>
   </div>-->
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-  <script>
-  !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-  (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-  r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-  }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-XXXXX-X');
-  ga('send', 'pageview');
-  </script>
-  <!-- build:js(.) scripts/vendor.js -->
-  <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
-  <script src="bower_components/angular-animate/angular-animate.js"></script>
-  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-  <script src="bower_components/angular-resource/angular-resource.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-  <script src="bower_components/angular-touch/angular-touch.js"></script>
-  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-  <script src="bower_components/perfect-scrollbar/src/perfect-scrollbar.js"></script>
-  <script src="bower_components/angular-perfect-scrollbar/src/angular-perfect-scrollbar.js"></script>
-  <!-- endbower -->
-  <!-- endbuild -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.5.0/angular-material-icons.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-  <!-- build:js({.tmp,app}) scripts/scripts.js -->
-  <script src="scripts/app.js"></script>
-  <script src="scripts/controllers/main.js"></script>
-  <script src="scripts/controllers/interactions.js"></script>
-  <script src="scripts/controllers/legal.js"></script>
-  <script src="scripts/controllers/the_basics.js"></script>
-  <script src="scripts/controllers/courses.js"></script>
-  <script src="scripts/controllers/programsoverview.js"></script>
-  <script src="scripts/controllers/embook.js"></script>
-  <script src="scripts/controllers/meetingroom.js"></script>
-  <script src="scripts/controllers/foundation-analyst.js"></script>
-  <script src="scripts/controllers/method.js"></script>
-  <script src="scripts/controllers/contact.js"></script>
-  <!-- endbuild -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+        ! function (A, n, g, u, l, a, r) {
+            A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+        }(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/perfect-scrollbar/src/perfect-scrollbar.js"></script>
+    <script src="bower_components/angular-perfect-scrollbar/src/angular-perfect-scrollbar.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.5.0/angular-material-icons.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/interactions.js"></script>
+    <script src="scripts/controllers/legal.js"></script>
+    <script src="scripts/controllers/the_basics.js"></script>
+    <script src="scripts/controllers/courses.js"></script>
+    <script src="scripts/controllers/programsoverview.js"></script>
+    <script src="scripts/controllers/embook.js"></script>
+    <script src="scripts/controllers/meetingroom.js"></script>
+    <script src="scripts/controllers/foundation-analyst.js"></script>
+    <script src="scripts/controllers/method.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+    <!-- endbuild -->
 </body>
+
 </html>
