@@ -8,10 +8,11 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-   
+    <link rel="stylesheet" href="bower_components/perfect-scrollbar/src/perfect-scrollbar.css" />
     <!-- endbower -->
     <!-- endbuild -->
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -24,19 +25,50 @@
 <div class="topmenu">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2">sign in</div>
-            <div class="col-md-1">empty</div>
-            <div class="col-md-2">discover</div>
-            <div class="col-md-2">programs</div>
-            <div class="col-md-2">practitioner</div>
-            <div class="col-md-1">emtpy</div>
-            <div class="col-md-2">Logo</div>
+            <div class="col-md-3">sign in</div>
+            <div class="col-md-2">
+                <div>
+                    <h3>Discover</h3>
+                    <div>
+                        <ul>
+                            <li>The Basics</li>
+                            <li>Training Materials</li>
+                            <li>Examples</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <h3>Programs</h3>
+                    <div>
+                        <ul>
+                            <li>Libraries</li>
+                            <li>Courses</li>
+                            <li>Schedule</li>
+                            <li>Certification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <h3>Practitioners</h3>
+                    <div>
+                        <ul>
+                            <li>Overview</li>
+                            <li>Partner with us</li>
+                            <li>Directory</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-right">Logo</div>
         </div>
     </div>
 </div>
-
-
-
+      
+      
   <div class="views-container">
     <div ng-view=""></div>
   </div>
