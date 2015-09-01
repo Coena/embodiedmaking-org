@@ -28,3 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #000000;
 }
+
+.shadowdepth-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
