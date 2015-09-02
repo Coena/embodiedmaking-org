@@ -1,5 +1,5 @@
 .header-big {
-    margin-top: 231px;
+    margin-top: 217px;
     height: 300px;
     color: #ffffff;
     padding: 30px;
@@ -15,3 +15,23 @@
         }
 }
 
+
+
+@media screen and (max-width: 768px) {
+	.header-big {
+    margin-top: 68px;
+    height: 300px;
+    color: #ffffff;
+    padding: 30px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/images/embodiedmaking-main.jpg');
+    background-color: #000000;
+    background-position: center center;
+    background-size: cover;
+        .title-light {
+            color: #ffffff;
+        }
+        .dark-overlay {
+            opacity: 0.4;
+        }
+}
+}
