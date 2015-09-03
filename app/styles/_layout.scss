@@ -1,11 +1,16 @@
-.content-row {
-    margin-top: -40px;
+.darkbg {
+    background-color: #313135;
 }
     
 .content-block {
     padding: 1px;
+    margin-top: -40px;
 }
 
 .content-card {
     background-color: #ffffff;
+    .textbox {
+        padding: 30px;
+    }
+    
 }
