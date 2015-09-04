@@ -19,30 +19,61 @@
     
 }
 
- .featurette {
+.portfolio-card {
+    background-color: #f3f3f3;
+    .textbox {
+        padding: 25px 30px 25px 30px;
+        min-height: 130px;
+    }    
+}
+
+ .featurette-right {
      padding-top: 50px;
      padding-bottom: 50px;
      text-align: right;
- }
+     }
+
+ .featurette-left {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     }
+
+ .featurette-center {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+     }
+
+ 
 
  .featurette-image {
-     padding-top: 120px;
+     padding-top: 80px;
      padding-bottom: 50px;
  }
 
 
 @media screen and (max-width: 768px) {
-	.featurette {
-     padding-top: 50px;
-     padding-bottom: 50px;
-     text-align: center;
+	.featurette-right {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         text-align: center;
+ }
+    .featurette-left {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         text-align: center;
  }
 }
 
 @media screen and (max-width: 480px) {
-	.featurette {
-     padding-top: 50px;
-     padding-bottom: 50px;
-     text-align: center;
+	.featurette-right {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         text-align: center;
+ }
+    .featurette-left {
+         padding-top: 50px;
+         padding-bottom: 50px;
+         text-align: center;
  }
 }
