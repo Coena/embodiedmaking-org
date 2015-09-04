@@ -1,16 +1,48 @@
 .darkbg {
     background-color: #313135;
 }
-    
-.content-block {
-    padding: 1px;
+
+.content-row {
     margin-top: -40px;
+}
+
+.content-block {
+    padding: 0 1px 20px 1px;
 }
 
 .content-card {
     background-color: #ffffff;
     .textbox {
-        padding: 30px;
+        padding: 25px 30px 25px 30px;
+        min-height: 130px;
     }
     
+}
+
+ .featurette {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: right;
+ }
+
+ .featurette-image {
+     padding-top: 120px;
+     padding-bottom: 50px;
+ }
+
+
+@media screen and (max-width: 768px) {
+	.featurette {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+ }
+}
+
+@media screen and (max-width: 480px) {
+	.featurette {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+ }
 }
