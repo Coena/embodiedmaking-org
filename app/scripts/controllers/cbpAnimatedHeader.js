@@ -10,6 +10,8 @@
  */
 var cbpAnimatedHeader = (function() {
 
+    'use strict';
+    
 	var docElem = document.documentElement,
 		header = document.querySelector( '.cbp-af-header' ),
 		didScroll = false,
