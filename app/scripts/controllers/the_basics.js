@@ -9,5 +9,4 @@
  */
 angular.module('embodiedmakingOrgApp')
   .controller('TheBasicsCtrl', function ($scope, $resource) {
-
   });

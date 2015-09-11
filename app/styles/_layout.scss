@@ -1,5 +1,13 @@
 .darkbg {
     background-color: #313135;
+    padding-bottom: 50px;
+    box-shadow: inset 0 -20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.greybg {
+    background-color: #707077;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .content-row {
@@ -38,6 +46,7 @@
     background-color: #000000;
     background-position: center center;
     background-size: cover;
+    box-shadow: inset 0 20px 30px rgba(0, 0, 0, 0.5);
         .dark-overlay {
             opacity: 0.4;
         }
