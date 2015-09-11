@@ -49,6 +49,12 @@ angular
         title: 'The basics',
         pageIcon: 'md-security'
       })
+      .when('/the_essence', {
+        templateUrl: 'views/the_essence.html',
+        controller: 'TheEssenceCtrl',
+        title: 'The essence',
+        pageIcon: 'md-security'
+      })
       .when('/courses', {
         templateUrl: 'views/courses.html',
         controller: 'CoursesCtrl',
