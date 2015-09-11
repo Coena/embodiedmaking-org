@@ -55,6 +55,12 @@ angular
         title: 'The essence',
         pageIcon: 'md-security'
       })
+      .when('/library', {
+        templateUrl: 'views/library.html',
+        controller: 'LibraryCtrl',
+        title: 'Library',
+        pageIcon: 'md-security'
+      })
       .when('/courses', {
         templateUrl: 'views/courses.html',
         controller: 'CoursesCtrl',
