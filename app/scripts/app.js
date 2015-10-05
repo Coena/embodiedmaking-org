@@ -70,10 +70,10 @@ angular
       .otherwise({
         redirectTo: '/'
       })
-     .when('/programsoverview', {
-        templateUrl: 'views/programsoverview.html',
-        controller: 'ProgramsOverviewCtrl',
-        title: 'Programsoverview',
+     .when('/certifications', {
+        templateUrl: 'views/certifications.html',
+        controller: 'CertificationsCtrl',
+        title: 'Certifications',
         pageIcon: 'md-security'
       })
      .when('/embook', {
