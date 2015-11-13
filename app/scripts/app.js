@@ -28,89 +28,52 @@ angular
             .when('/', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl',
-                title: 'Home',
-                pageIcon: 'md-home'
-            })
-            .when('/interactions', {
-                templateUrl: 'views/interactions.html',
-                controller: 'InteractionsCtrl',
-                title: 'Interactions',
-                pageIcon: 'md-forum'
+                title: 'Home'
             })
             .when('/legal', {
                 templateUrl: 'views/legal.html',
-                controller: 'LegalCtrl',
-                title: 'Legal Notice',
-                pageIcon: 'md-security'
+                title: 'Legal Notice'
             })
             .when('/the_basics', {
                 templateUrl: 'views/the_basics.html',
-                controller: 'TheBasicsCtrl',
-                title: 'The basics',
-                pageIcon: 'md-security'
+                title: 'The basics'
             })
             .when('/the_essence', {
                 templateUrl: 'views/the_essence.html',
-                controller: 'TheEssenceCtrl',
-                title: 'The essence',
-                pageIcon: 'md-security'
+                title: 'The essence'
             })
             .when('/library', {
                 templateUrl: 'views/library.html',
-                controller: 'LibraryCtrl',
-                title: 'Library',
-                pageIcon: 'md-security'
+                title: 'Library'
             })
             .when('/courses', {
                 templateUrl: 'views/courses.html',
-                controller: 'CoursesCtrl',
-                title: 'Courses',
-                pageIcon: 'md-security'
+                title: 'Courses'
             })
             .otherwise({
                 redirectTo: '/'
             })
             .when('/certifications', {
                 templateUrl: 'views/certifications.html',
-                controller: 'CertificationsCtrl',
-                title: 'Certifications',
-                pageIcon: 'md-security'
-            })
-            .when('/embook', {
-                templateUrl: 'views/embook.html',
-                controller: 'EmbookCtrl',
-                title: 'Embodied Making Book',
-                pageIcon: 'md-security'
+                title: 'Certifications'
             })
             .when('/meetingroom', {
                 templateUrl: 'views/meetingroom.html',
-                controller: 'MeetingRoomCtrl',
+
                 title: 'Meeting Room Example',
-                pageIcon: 'md-security'
-            })
-            .when('/foundation-analyst', {
-                templateUrl: 'views/foundation-analyst.html',
-                controller: 'FoundationAnalystCtrl',
-                title: 'Foundation Analyst',
                 pageIcon: 'md-security'
             })
             .when('/method', {
                 templateUrl: 'views/method.html',
-                controller: 'MethodCtrl',
-                title: 'Method',
-                pageIcon: 'md-security'
+                title: 'Method'
             })
             .when('/contactsucces', {
                 templateUrl: 'views/contactsucces.html',
-                controller: 'CountactCtrl',
-                title: 'ContactSucces',
-                pageIcon: 'md-security'
+                title: 'ContactSucces'
             })
             .when('/contact', {
                 templateUrl: 'views/contact.html',
-                controller: 'CountactCtrl',
-                title: 'Contact',
-                pageIcon: 'md-security'
+                title: 'Contact'
             })
             .otherwise({
                 redirectTo: '/'
