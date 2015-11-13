@@ -28,8 +28,43 @@
     <![endif]-->
     <!-- Add your site or application content here -->
     <div class="container">
-
-        <div class="cbp-af-header shadowdepth-1">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Project name</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse text-center">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/">Home</a>
+                        </li>
+                        <li><a href="#/the_essence">The Essence</a>
+                        </li>
+                        <li><a href="#/the_basics">The Basics</a>
+                        </li>
+                        <li><a href="#/meetingroom">Examples</a>
+                        </li>
+                        <li><a href="#/courses">Courses</a>
+                        </li>
+                        <li><a href="#/certifications">Certifications</a>
+                        </li>                    
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/library"><small>Library</small></a>
+                        </li>
+                        <li><a href="#/contact"><small>Contact us</small></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <!--<div class="cbp-af-header shadowdepth-1">
             <div class="cbp-af-inner">
                 <nav class="navbar navbar-default navbar-fixed-top">
                     <div class="container-fluid">
@@ -111,12 +146,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.navbar-collapse -->
+                       
                     </div>
-                    <!-- /.container-fluid -->
+                
                 </nav>
             </div>
-        </div>
+        </div>-->
     </div>
 
 
@@ -146,7 +181,7 @@
   1018 DH Amsterdam<br>
   The Netherlands<br>
 </address>
-                                
+
                                 <h4>Follow us</h4>
                                 <a href="https://www.linkedin.com/grp/home?gid=4806901" target="_blank">Linkedin</a>
                             </div>
@@ -156,21 +191,22 @@
 
 
                         <div class="col-xs-12 col-sm-4">
-<h4>Contact us</h4>
-                            <script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe"
-style="display:none;" onload="if(submitted)
+                            <h4>Contact us</h4>
+                            <script type="text/javascript">
+                                var submitted = false;
+                            </script>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
 {window.location='/#/contactsucces';}"></iframe>
-<form action="https://docs.google.com/a/product-foundry.com/forms/d/1f7h9dxRnDhXxkzty7BMj8_qjslD7ZJEZ2DMQaiSW5gQ/formResponse" method="post"
-target="hidden_iframe" onsubmit="submitted=true;">
+                            <form action="https://docs.google.com/a/product-foundry.com/forms/d/1f7h9dxRnDhXxkzty7BMj8_qjslD7ZJEZ2DMQaiSW5gQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                                 <ol role="list" class="ss-question-list" style="padding-left: 0">
-                                    
-                                    
+
+
                                     <div class="ss-form-question errorbox-good" role="listitem">
                                         <div dir="auto" class="ss-item ss-item-required ss-text">
                                             <div class="ss-form-entry">
                                                 <label class="ss-q-item-label" for="entry_1000000">
-                                                    <div class="ss-q-title"><label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <div class="ss-q-title">
+                                                        <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
                                                         <span class="ss-required-asterisk" aria-hidden="true"></span>
                                                     </div>
                                                     <div class="ss-q-help ss-secondary-text" dir="auto"></div>
@@ -185,13 +221,14 @@ target="hidden_iframe" onsubmit="submitted=true;">
                                         <div dir="auto" class="ss-item ss-item-required ss-text">
                                             <div class="ss-form-entry">
                                                 <label class="ss-q-item-label" for="entry_1000001">
-                                                    <div class="ss-q-title"><label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                                    <div class="ss-q-title">
+                                                        <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
                                                         <span class="ss-required-asterisk" aria-hidden="true"></span>
                                                     </div>
                                                     <div class="ss-q-help ss-secondary-text" dir="auto"></div>
                                                 </label>
                                                 <input type="email" name="entry.1000001" value="" class="form-control" id="entry_1000001" dir="auto" aria-label="Your Contact E-mail  It seems that you didn&#39;t enter a correct e-mail address" aria-required="true" required="" title="It seems that you didn&#39;t enter a correct e-mail address" placeholder="Your E-mail">
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -207,7 +244,7 @@ target="hidden_iframe" onsubmit="submitted=true;">
                                                 </label>
                                                 <textarea name="entry.1000003" rows="4" cols="0" class="form-control" id="entry_1000003" dir="auto" aria-label="Your message  " aria-required="true" required="" placeholder="Your Message"></textarea>
                                                 <div class="error-message" id="200938227_errorMessage"></div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -226,7 +263,7 @@ target="hidden_iframe" onsubmit="submitted=true;">
                                                 <tr>
                                                     <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
                                                         <input type="submit" name="submit" value="Send message" id="ss-submit" class="btn btn-primary pull-right sharp">
-                                                        
+
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -254,15 +291,21 @@ target="hidden_iframe" onsubmit="submitted=true;">
   </div>-->
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-67502041-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-67502041-1', 'auto');
+        ga('send', 'pageview');
+    </script>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -295,8 +338,6 @@ target="hidden_iframe" onsubmit="submitted=true;">
     <script src="scripts/controllers/foundation-analyst.js"></script>
     <script src="scripts/controllers/method.js"></script>
     <script src="scripts/controllers/contact.js"></script>
-    <script src="scripts/controllers/classie.js"></script>
-    <script src="scripts/controllers/cbpAnimatedHeader.min.js"></script>
     <!-- endbuild -->
 </body>
 
