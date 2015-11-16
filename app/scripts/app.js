@@ -50,22 +50,13 @@ angular
                 templateUrl: 'views/courses.html',
                 title: 'Courses'
             })
-            .otherwise({
-                redirectTo: '/'
-            })
             .when('/certifications', {
                 templateUrl: 'views/certifications.html',
                 title: 'Certifications'
             })
             .when('/meetingroom', {
                 templateUrl: 'views/meetingroom.html',
-
                 title: 'Meeting Room Example',
-                pageIcon: 'md-security'
-            })
-            .when('/method', {
-                templateUrl: 'views/method.html',
-                title: 'Method'
             })
             .when('/contactsucces', {
                 templateUrl: 'views/contactsucces.html',
@@ -75,8 +66,12 @@ angular
                 templateUrl: 'views/contact.html',
                 title: 'Contact'
             })
+            .when('/404', {
+                templateUrl: 'views/404.html',
+                title: '404'
+            })
             .otherwise({
-                redirectTo: '/'
+                redirectTo: '/404'
             });
 
 
@@ -87,4 +82,3 @@ angular
         });
 
   }]);
-
