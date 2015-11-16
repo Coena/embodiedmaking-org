@@ -20,7 +20,6 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'perfect_scrollbar',
     'ngMdIcons'
   ])
     .config(function ($routeProvider) {
